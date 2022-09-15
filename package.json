@@ -1,8 +1,8 @@
 {
-  "name": "bswap",
+  "name": "evox_swap",
   "version": "0.0.1",
   "description": "Cross-chain atomic swaps",
-  "main": "swap.js",
+  "main": "swap_evox.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,7 +24,6 @@
     "request": "^2.88.2"
   },
   "peerDependencies": {
-    "bcash": "^1.0.2",
     "bcoin": "^1.0.2"
   }
 }

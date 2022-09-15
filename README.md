@@ -27,10 +27,10 @@ environment variable is set.
 
 ```
 # generate new wallet
-simplewallet --generate-new-wallet=test2.zan --password=12345
+simplewallet --generate-new-wallet=test2 --password=12345
 
 # launch wallet in server mode
-simplewallet --wallet-file=test2.zan --password=12345 --rpc-bind-port=12335
+simplewallet --wallet-file=test2 --password=12345 --rpc-bind-port=12335
 ```
 
 ## Configuration
@@ -62,7 +62,7 @@ bcoin --spv --daemon
 
 To interact with the nodes in this configuration, remember to pass the port number:
 ```
-# to getinfo from bcash node
+
 bcoin-cli --http-port=18032 --api-key=api-key info
 ```
 

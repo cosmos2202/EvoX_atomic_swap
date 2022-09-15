@@ -3,7 +3,7 @@
  
  // Requirements
  const {base58} = require('bstring');
- const SwapEntityEvoX = require('../lib/evox');
+ const SwapEntityEvoX = require('../lib/swap_evox');
  const SwapEntityBTC = require('../lib/swap_btc');
 
 
